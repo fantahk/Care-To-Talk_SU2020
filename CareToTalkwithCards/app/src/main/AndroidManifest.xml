@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.caretotalkwithcards">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CaregiveCategories"></activity>
+        <activity android:name=".FamilyCategories" />
+        <activity android:name=".FamilyFavorites" />
+        <activity android:name=".instructions1"></activity>
+        <activity android:name=".instructions2" />
+        <activity android:name=".about2" />
+        <activity android:name=".about1" />
+        <activity android:name=".Pop_Joker"
+            android:theme="@style/AppTheme.CustomTheme"/>
+        <activity android:name=".Pop_End"
+            android:theme="@style/AppTheme.CustomTheme2"/>
+        <activity android:name=".Pop_End2"
+            android:theme="@style/AppTheme.CustomTheme2"/>
+        <activity android:name=".Pop_End3"
+            android:theme="@style/AppTheme.CustomTheme2"/>
+        <activity android:name=".Pop_End4"
+            android:theme="@style/AppTheme.CustomTheme2"/>
+        <activity android:name=".Pop_End5"
+            android:theme="@style/AppTheme.CustomTheme2"/>
+        <activity android:name=".Pop_End6"
+            android:theme="@style/AppTheme.CustomTheme2"/>
+        <activity android:name=".Pop_End7"
+            android:theme="@style/AppTheme.CustomTheme2"/>
+        <activity android:name=".Pop_End21"
+            android:theme="@style/AppTheme.CustomTheme2"/>
+        <activity android:name=".Pop_End22"
+            android:theme="@style/AppTheme.CustomTheme2"/>
+        <activity android:name=".Pop_End23"
+            android:theme="@style/AppTheme.CustomTheme2"/>
+
+        <activity
+            android:name=".CardSet23"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".CardSet22"
+            android:label="@string/app_name"
+            android:parentActivityName=".CaregiverConvo">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.caretotalkwithcards.CaregiverConvo" />
+        </activity>
+        <activity
+            android:name=".CardSet21"
+            android:label="@string/app_name"
+            android:parentActivityName=".CaregiverConvo">
+<!--            android:theme="@string/app_name">-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.caretotalkwithcards.CaregiverConvo"/>
+        </activity>
+        <activity
+            android:name=".CardSet17"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CardSet16"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CardSet15"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CardSet14"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CardSet13"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CardSet12"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".CardSet11"
+            android:label="@string/app_name" />
+        <activity android:name=".CaregiverConvo" />
+        <activity android:name=".FamilyCaregiver" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
